@@ -1,3 +1,5 @@
-var name = document.getElementById(name);
+function alert() {
+    var name = document.getElementById("name").value;
 
-alert(name);
+    alert(name + "has joined the game");
+}
